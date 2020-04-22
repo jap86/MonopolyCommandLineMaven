@@ -1,0 +1,203 @@
+Index: src/jmol/jasper/MonopolyBoard/Logic/Board.java
+===================================================================
+--- src/jmol/jasper/MonopolyBoard/Logic/Board.java	(date 1572293902000)
++++ src/jmol/jasper/MonopolyBoard/Logic/MonopolyBoard.java	(date 1572703275143)
+@@ -2,53 +2,16 @@
+ 
+ import jmol.jasper.Utility.Logic.UserInputReader;
+ 
+-public class Board {
++/**
++ * This class represents the Monopoly board.
++ */
++public class MonopolyBoard {
+     private Boardspace[] boardspaces;
+ 
+-    /**
+-     * The indexes of the boardspaces.
+-     */
+-    private final int START = 0;
+-    private final int DORPSSTRAAT = 1;
+-    private final int ALGEMEEN_FONDS_1 = 2;
+-    private final int BRINK = 3;
+-    private final int INKOMSTENBELASTING = 4;
+-    private final int STATION_ZUID = 5;
+-    private final int STEENSTRAAT = 6;
+-    private final int KANS_1 = 7;
+-    private final int KETELSTRAAT = 8;
+-    private final int VELPERPLEIN = 9;
+-    private final int GEVANGENIS = 10;
+-    private final int BARTELJORISSTRAAT = 11;
+-    private final int ELEKTRICITEITSBEDRIJF = 12;
+-    private final int ZIJLWEG = 13;
+-    private final int GROTE_HOUTSTRAAT = 14;
+-    private final int STATION_WEST = 15;
+-    private final int NEUDE = 16;
+-    private final int ALGEMEEN_FONDS_2 = 17;
+-    private final int BILTSTRAAT = 18;
+-    private final int VREEBURG = 19;
+-    private final int VRIJ_PARKEREN = 20;
+-    private final int A_KERKHOF = 21;
+-    private final int KANS_2 = 22;
+-    private final int GROTE_MARKT = 23;
+-    private final int HEERESTRAAT = 24;
+-    private final int STATION_NOORD = 25;
+-    private final int SPUI = 26;
+-    private final int PLEIN = 27;
+-    private final int WATERLEIDING = 28;
+-    private final int LANGE_POTEN = 29;
+-    private final int GA_NAAR_DE_GEVANGENIS = 30;
+-    private final int HOFPLEIN = 31;
+-    private final int BLAAK = 32;
+-    private final int ALGEMEEN_FONDS_3 = 33;
+-    private final int COOLSINGEL = 34;
+-    private final int STATION_OOST = 35;
+-    private final int KANS_3 = 36;
+-    private final int LEIDSE_PLEIN = 37;
+-    private final int LUXE_BELASTING = 38;
+-    private final int KALVERSTRAAT = 39;
+-
++    // In these arrays the details for Street Boardspaces are hold.
++    // The contain:
++    // Price of property, price of a house, rent with no houses, one house, two houses
++    // three houses, four houses and with a hotel.
+     private final int[] DORP_PRIJZEN_NORMAAL = new int[]{60, 50, 2, 10, 30, 90, 160, 250};
+     private final int[] DORP_PRIJZEN_DUUR = new int[]{60, 50, 4, 20 ,60, 180, 320, 450};
+     private final int[] ARNHEM_PRIJZEN_NORMAAL = new int[]{100, 50, 6, 30, 90, 270, 400, 550};
+@@ -69,7 +32,7 @@
+     private final int[] STATION_PRIJZEN = new int[]{200, 25, 50, 100, 200};
+     private final int[] NUTS_PRIJZEN = new int[]{150};
+ 
+-   public Board(UserInputReader userInputReader) {
++   public MonopolyBoard(UserInputReader userInputReader) {
+        boardspaces = new Boardspace[]{
+                new Start(userInputReader,"Start", START),
+                new Street(userInputReader,"Dorpsstraat",DORPSSTRAAT, "Ons Dorp", 2, DORP_PRIJZEN_NORMAAL),
+Index: src/jmol/jasper/MonopolyGame/GameSetup.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package jmol.jasper.MonopolyGame;\r\n\r\nimport jmol.jasper.MonopolyBoard.Logic.Board;\r\nimport jmol.jasper.MonopolyBoard.Logic.Boardspace;\r\nimport jmol.jasper.Player.Logic.Player;\r\nimport jmol.jasper.Utility.Logic.ExpressionValidator;\r\nimport jmol.jasper.Utility.Logic.UserInputReader;\r\n\r\nimport java.util.HashMap;\r\nimport java.util.Map;\r\n\r\npublic class GameSetup {\r\n    private Board board;\r\n    private Player[] players;\r\n    private UserInputReader userInputReader;\r\n    private Integer numberOfPlayers;\r\n    private Map<Player, Boardspace> playerBoardspaceMap;\r\n    private final int MAX_PLAYERS = 6;\r\n    private final int MIN_PLAYERS = 2;\r\n    private final int MIN_NAME_LENGHT = 1;\r\n    private final int MAX_NAME_LENGHT = 12;\r\n    private final int START = 0;\r\n\r\n    public GameSetup(UserInputReader userInputReader) {\r\n        board = new Board(userInputReader);\r\n        playerBoardspaceMap = new HashMap<>();\r\n        this.userInputReader = userInputReader;\r\n    }\r\n\r\n    public Game createGame() {\r\n        setupGame();\r\n        return new Game(this);\r\n    }\r\n\r\n    private void setupGame(){\r\n        System.out.println(\"Welkom bij Monopoly!\");\r\n        createPlayers();\r\n        for (Player player : players) {\r\n            // Put all the players on the start space.\r\n            playerBoardspaceMap.put(player, board.getBoardspace(START));\r\n        }\r\n    }\r\n\r\n    private boolean createPlayers() {\r\n        determineNumberOfPlayers();\r\n        players = new Player[numberOfPlayers];\r\n        for (int i = 0; i < numberOfPlayers; i++){\r\n            players[i] = createPlayer(i + 1);\r\n        }\r\n        return true;\r\n    }\r\n\r\n    private Player createPlayer(int playerNo) {\r\n        String name = getPlayerName(playerNo);\r\n        System.out.println(name + \" is toegevoegd!\");\r\n        return new Player(name);\r\n    }\r\n\r\n    private void determineNumberOfPlayers() {\r\n        System.out.println(\"Met hoeveel spelers wil je spelen?\");\r\n        numberOfPlayers = userInputReader.getInteger();\r\n        boolean validNumberOfPlayers = isNumberOfPlayersValid();\r\n        while (!validNumberOfPlayers) {\r\n            System.out.println(\"Er kunnen minimaal \" + MIN_PLAYERS + \" en maximaal \" + MAX_PLAYERS + \" spelen.\");\r\n            System.out.println(\"Voer nog een keer het aantal spelers in.\");\r\n            numberOfPlayers = userInputReader.getInteger();\r\n            validNumberOfPlayers = isNumberOfPlayersValid();\r\n        }\r\n    }\r\n\r\n    private String getPlayerName(int playerNo) {\r\n        System.out.println(\"Wat is de naam van speler \" + playerNo + \"?\");\r\n        String name = userInputReader.getString();\r\n        boolean isValidName = validateName(name);\r\n        while (!isValidName) {\r\n            System.out.println(\"Een naam mag niet leeg zijn of langer dan 12 tekens\");\r\n            System.out.println(\"Voer nog een keer je naam in.\");\r\n            name = userInputReader.getString();\r\n            isValidName = validateName(name);\r\n        }\r\n        return name;\r\n    }\r\n\r\n    private boolean validateName(String name) {\r\n        return ExpressionValidator.getInstance().isStringWithinLength(name, MIN_NAME_LENGHT, MAX_NAME_LENGHT);\r\n    }\r\n\r\n    private boolean isNumberOfPlayersValid() {\r\n        return ExpressionValidator.getInstance().isValidIntegerWithBoundaries(numberOfPlayers, MIN_PLAYERS, MAX_PLAYERS);\r\n    }\r\n    public Board getBoard() {\r\n        return board;\r\n    }\r\n\r\n    public Player[] getPlayers() {\r\n        return players;\r\n    }\r\n\r\n    public UserInputReader getUserInputReader() {\r\n        return userInputReader;\r\n    }\r\n\r\n    public Map<Player, Boardspace> getPlayerBoardspaceMap() {\r\n        return playerBoardspaceMap;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/jmol/jasper/MonopolyGame/GameSetup.java	(date 1572293902000)
++++ src/jmol/jasper/MonopolyGame/GameSetup.java	(date 1572703275128)
+@@ -1,6 +1,6 @@
+ package jmol.jasper.MonopolyGame;
+ 
+-import jmol.jasper.MonopolyBoard.Logic.Board;
++import jmol.jasper.MonopolyBoard.Logic.MonopolyBoard;
+ import jmol.jasper.MonopolyBoard.Logic.Boardspace;
+ import jmol.jasper.Player.Logic.Player;
+ import jmol.jasper.Utility.Logic.ExpressionValidator;
+@@ -10,7 +10,7 @@
+ import java.util.Map;
+ 
+ public class GameSetup {
+-    private Board board;
++    private MonopolyBoard board;
+     private Player[] players;
+     private UserInputReader userInputReader;
+     private Integer numberOfPlayers;
+@@ -22,7 +22,7 @@
+     private final int START = 0;
+ 
+     public GameSetup(UserInputReader userInputReader) {
+-        board = new Board(userInputReader);
++        board = new MonopolyBoard(userInputReader);
+         playerBoardspaceMap = new HashMap<>();
+         this.userInputReader = userInputReader;
+     }
+@@ -88,7 +88,7 @@
+     private boolean isNumberOfPlayersValid() {
+         return ExpressionValidator.getInstance().isValidIntegerWithBoundaries(numberOfPlayers, MIN_PLAYERS, MAX_PLAYERS);
+     }
+-    public Board getBoard() {
++    public MonopolyBoard getBoard() {
+         return board;
+     }
+ 
+Index: src/jmol/jasper/MonopolyGame/Game.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package jmol.jasper.MonopolyGame;\r\n\r\nimport jmol.jasper.MonopolyBoard.Logic.Board;\r\nimport jmol.jasper.MonopolyBoard.Logic.Boardspace;\r\nimport jmol.jasper.MonopolyBoard.Logic.Property;\r\nimport jmol.jasper.Player.Logic.Player;\r\nimport jmol.jasper.Utility.Logic.UserInputReader;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\nimport java.util.Map;\r\n\r\npublic class Game {\r\n    private List<Player> players;\r\n    private UserInputReader userInputReader;\r\n    private Map<Player, Boardspace> playerBoardspaceMap;\r\n    private Board board;\r\n    private int nrOfRounds;\r\n\r\n    public Game(GameSetup gameSetup){\r\n        players = makeArrayList(gameSetup.getPlayers());\r\n        playerBoardspaceMap = gameSetup.getPlayerBoardspaceMap();\r\n        userInputReader = gameSetup.getUserInputReader();\r\n        board = gameSetup.getBoard();\r\n    }\r\n\r\n    public void startGame(){\r\n        while (!gameIsOver()) {\r\n            playRound();\r\n            nrOfRounds ++;\r\n        }\r\n        System.out.println(players.get(0) + \" heeft gewonnen!\");\r\n        printGameStatus();\r\n    }\r\n\r\n    private boolean gameIsOver() {\r\n        return players.size() == 1;\r\n    }\r\n\r\n    private void playRound() {\r\n        for (Player player : players) {\r\n            playRound(player);\r\n            if (player.isGameOver()) {\r\n                handleGameOver(player);\r\n            }\r\n        }\r\n    }\r\n\r\n    private void handleGameOver(Player player) {\r\n        playerBoardspaceMap.remove(player);\r\n        players.remove(player);\r\n        System.out.println(player + \" is failliet en doet niet meer mee!\");\r\n    }\r\n\r\n    private void playRound(Player player) {\r\n        RoundOfPlay roundOfPlay = new RoundOfPlay(player, userInputReader);\r\n        do {\r\n            int currentBoardSpaceNr = player.getBoardspaceNr();\r\n            roundOfPlay.play();\r\n            putPlayerOnNewBoardSpace(player, currentBoardSpaceNr);\r\n            performBoardspaceActions(player, roundOfPlay.getTotalThrow());\r\n        }\r\n        while (roundOfPlay.determineCanThrowAgain());\r\n    }\r\n\r\n    private void putPlayerOnNewBoardSpace(Player player, int previousBoardSpaceNr) {\r\n        int newBoardSpaceNr = player.getBoardspaceNr();\r\n        if (newBoardSpaceNr != 0 && newBoardSpaceNr<previousBoardSpaceNr) {\r\n            System.out.println(player + \" is voorbij start gekomen en ontvangt 200 euro!\");\r\n            player.receiveMoney(200);\r\n        }\r\n        playerBoardspaceMap.put(player, board.getBoardspace(newBoardSpaceNr));\r\n    }\r\n\r\n    private void performBoardspaceActions(Player player, int diceThrow) {\r\n        Boardspace boardspace = playerBoardspaceMap.get(player);\r\n        boardspace.prepareAction(player, diceThrow);\r\n        boardspace.performAction();\r\n    }\r\n\r\n    private void printGameStatus(){\r\n        for (Player player : players){\r\n            System.out.println(showPlayerStatus(player));\r\n        }\r\n        System.out.println(\"Er zijn \" + nrOfRounds + \" gespeeld.\");\r\n    }\r\n\r\n    private String showPlayerStatus(Player player) {\r\n        StringBuilder playerStatus = new StringBuilder(player.getName());\r\n        playerStatus.append(\" staat op \");\r\n        playerStatus.append(board.getBoardspace(player.getBoardspaceNr()).getName());\r\n        playerStatus.append(\" en heeft \");\r\n        playerStatus.append(player.getAmountOfMoney() + \" euro.\");\r\n        playerStatus.append(System.lineSeparator());\r\n        if (player.getProperties().isEmpty()) {\r\n            playerStatus.append(player.getName() + \" heeft geen nog geen bezittingen.\");\r\n        }\r\n        else {\r\n            playerStatus.append(player + \" heeft de volgende bezittingen:\");\r\n            for (Property property : player.getProperties()){\r\n                playerStatus.append(System.lineSeparator());\r\n                playerStatus.append(property.getName() + \".\");\r\n            }\r\n        }\r\n        playerStatus.append(System.lineSeparator());\r\n        return playerStatus.toString();\r\n    }\r\n\r\n    private List<Player> makeArrayList(Player[] playerArray) {\r\n        List<Player> players = new ArrayList<>();\r\n        for (Player player : playerArray) {\r\n            players.add(player);\r\n        }\r\n        return players;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/jmol/jasper/MonopolyGame/Game.java	(date 1572293902000)
++++ src/jmol/jasper/MonopolyGame/Game.java	(date 1572703275143)
+@@ -1,6 +1,6 @@
+ package jmol.jasper.MonopolyGame;
+ 
+-import jmol.jasper.MonopolyBoard.Logic.Board;
++import jmol.jasper.MonopolyBoard.Logic.MonopolyBoard;
+ import jmol.jasper.MonopolyBoard.Logic.Boardspace;
+ import jmol.jasper.MonopolyBoard.Logic.Property;
+ import jmol.jasper.Player.Logic.Player;
+@@ -14,7 +14,7 @@
+     private List<Player> players;
+     private UserInputReader userInputReader;
+     private Map<Player, Boardspace> playerBoardspaceMap;
+-    private Board board;
++    private MonopolyBoard board;
+     private int nrOfRounds;
+ 
+     public Game(GameSetup gameSetup){
+Index: src/jmol/jasper/MonopolyBoard/Logic/MonopolyBoardSpaceBuilder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/jmol/jasper/MonopolyBoard/Logic/MonopolyBoardSpaceBuilder.java	(date 1572703275159)
++++ src/jmol/jasper/MonopolyBoard/Logic/MonopolyBoardSpaceBuilder.java	(date 1572703275159)
+@@ -0,0 +1,50 @@
++package jmol.jasper.MonopolyBoard.Logic;
++
++/**
++ *  Builder class to create Monopoly board spaces.
++ */
++public class MonopolyBoardSpaceBuilder {
++   private final int START = 0;
++   private final int DORPSSTRAAT = 1;
++   private final int ALGEMEEN_FONDS_1 = 2;
++   private final int BRINK = 3;
++   private final int INKOMSTENBELASTING = 4;
++   private final int STATION_ZUID = 5;
++   private final int STEENSTRAAT = 6;
++   private final int KANS_1 = 7;
++   private final int KETELSTRAAT = 8;
++   private final int VELPERPLEIN = 9;
++   private final int GEVANGENIS = 10;
++   private final int BARTELJORISSTRAAT = 11;
++   private final int ELEKTRICITEITSBEDRIJF = 12;
++   private final int ZIJLWEG = 13;
++   private final int GROTE_HOUTSTRAAT = 14;
++   private final int STATION_WEST = 15;
++   private final int NEUDE = 16;
++   private final int ALGEMEEN_FONDS_2 = 17;
++   private final int BILTSTRAAT = 18;
++   private final int VREEBURG = 19;
++   private final int VRIJ_PARKEREN = 20;
++   private final int A_KERKHOF = 21;
++   private final int KANS_2 = 22;
++   private final int GROTE_MARKT = 23;
++   private final int HEERESTRAAT = 24;
++   private final int STATION_NOORD = 25;
++   private final int SPUI = 26;
++   private final int PLEIN = 27;
++   private final int WATERLEIDING = 28;
++   private final int LANGE_POTEN = 29;
++   private final int GA_NAAR_DE_GEVANGENIS = 30;
++   private final int HOFPLEIN = 31;
++   private final int BLAAK = 32;
++   private final int ALGEMEEN_FONDS_3 = 33;
++   private final int COOLSINGEL = 34;
++   private final int STATION_OOST = 35;
++   private final int KANS_3 = 36;
++   private final int LEIDSE_PLEIN = 37;
++   private final int LUXE_BELASTING = 38;
++   private final int KALVERSTRAAT = 39;
++
++   private String name;
++   private int spaceNr;
++}

@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ee3cf72-2169-4f6f-8bae-e073cdda9c14" name="Default Changelist" comment="" />
+    <list id="02f1c2aa-6201-4319-af67-c7a32ca7730f" name="Add Comments" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="C:\MonopolyCommandLine\.idea\shelf/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1819">
+              <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Street.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#2338#2339#0" expanded="true" />
+                <element signature="e#2375#2376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="408" selection-start-line="408" selection-end-line="408" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/Player/Logic/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="e#2136#2137#0" expanded="true" />
+                <element signature="e#2182#2183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/TestStreet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/TestBank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuySellHouseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/SellHouseBoardSpaceAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="60" column="111" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new int{</find>
+      <find>HOUSEPRICE_NORMAAL</find>
+      <find>HOUSEPRICE</find>
+      <find>int</find>
+      <find>public</find>
+      <find>userInputReader,</find>
+      <find>private</find>
+      <find>public static final</find>
+      <find>break;</find>
+      <find>playerBoardspaceMap.get(player).getSpaceNr()</find>
+      <find>boardspace</find>
+      <find>new CardBUilder()</find>
+      <find>new Card</find>
+      <find>Bank bank</find>
+      <find />
+      <find>bank,</find>
+      <find>buySellHouseHelper</find>
+      <find>player1</find>
+      <find>Bank.g</find>
+      <find>bank.</find>
+      <find>ets();</find>
+      <find>addAllStreets();</find>
+      <find>owManyHousesCanBeBought(street1</find>
+      <find>Bought(street2</find>
+      <find>ught(street3</find>
+      <find>street</find>
+      <find>BuyHousesAction.</find>
+      <find>initializeStreet</find>
+      <find>Hotels sho</find>
+      <find>getNumberOfT</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/jmol/jasper" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/src/jmol/jasper" value="master" />
+        <entry key="$PROJECT_DIR$/src/main/java/jmol/jasper" value="addBuyHouses" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Taxation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/ActionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/BoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Boardspace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/BuyHousesBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/PlayerAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/SellHouseBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/UserInterface/Logic/KeuzeMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayCardBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayForHousesCardBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayOrDrawChanceCardBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayRentBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/Action.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoToJailBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoToBoardspaceRegularBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PrintPlayerStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/NoBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/CommunityChest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Chance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/CardSpace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/CardAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoToBoardspaceDirectBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoThreePlacesBackBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/UserInterface/UserInputReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyBoard/MonopolyCardDeckTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyBoard/Data/MonopolyCardDeckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/Player/Logic/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/Player/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Logic/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Utility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Station.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/BuyPropertyBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Logic/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/MonopolyBoardData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyBoard/Data/MonopolyBoardDataTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuyHousesBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyTransaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuyHousesUserInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuySellHouseHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/SellHouseBoardSpaceAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/TestBank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/TransactionType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuySellHousesUserInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuyHousesAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Street.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/TestStreet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MonopolyCommandLine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MonopolyCommandLine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MonopolyCommandLine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="339" />
+    <option name="y" value="26" />
+    <option name="width" value="1138" />
+    <option name="height" value="1034" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyBoard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Actions" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="Logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="MonopolyGame" type="462c0819:PsiDirectoryNode" />
+              <item name="PlayerActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="Player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="jmol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="jmol" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="jmol" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="UserInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="jmol" type="462c0819:PsiDirectoryNode" />
+              <item name="jasper" type="462c0819:PsiDirectoryNode" />
+              <item name="UserInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="Logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MonopolyCommandLine" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MonopolyCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jmol/jasper/MonopolyGame" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MonopolyCommandLine\src\test\java\jmol\jasper\MonopolyGame\Player" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jmol.jasper" />
+      <recent name="jmol.jasper.MonopolyBoard.Data" />
+      <recent name="jmol.jasper.MonopolyBoard" />
+      <recent name="jmol.jasper.MonopolyGame" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jmol.jasper.MonopolyBoard.Logic" />
+      <recent name="jmol.jasper.MonopolyGame" />
+      <recent name="jmol.jasper.Utility.Logic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MonopolyCommandLine\src\jmol\jasper\MonopolyGame" />
+      <recent name="C:\MonopolyCommandLine\src\jmol\jasper" />
+      <recent name="C:\MonopolyCommandLine\src\jmol\jasper\UserInput" />
+      <recent name="C:\MonopolyCommandLine\src\jmol\jasper\Board\Logic" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HouseBuyerTest">
+    <configuration name="All in MonopolyCommandLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonopolyCommandLine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseBuyerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonopolyCommandLine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmol.jasper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions" />
+      <option name="MAIN_CLASS_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.HouseBuyerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseBuyerTest.testBuyHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonopolyCommandLine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions" />
+      <option name="MAIN_CLASS_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.HouseBuyerTest" />
+      <option name="METHOD_NAME" value="testBuyHotel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseBuyerTest.testDetermineTransactionTypeHotel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonopolyCommandLine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions" />
+      <option name="MAIN_CLASS_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.HouseBuyerTest" />
+      <option name="METHOD_NAME" value="testDetermineTransactionTypeHotel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseBuyerTest.testHasBankHousesOrHotelsOnlyHouses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MonopolyCommandLine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions" />
+      <option name="MAIN_CLASS_NAME" value="jmol.jasper.MonopolyGame.Actions.PlayerActions.HouseBuyerTest" />
+      <option name="METHOD_NAME" value="testHasBankHousesOrHotelsOnlyHouses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HouseBuyerTest" />
+      <item itemvalue="JUnit.All in MonopolyCommandLine" />
+      <item itemvalue="JUnit.HouseBuyerTest.testDetermineTransactionTypeHotel" />
+      <item itemvalue="JUnit.HouseBuyerTest.testHasBankHousesOrHotelsOnlyHouses" />
+      <item itemvalue="JUnit.HouseBuyerTest.testBuyHotel" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HouseBuyerTest" />
+        <item itemvalue="JUnit.HouseBuyerTest.testBuyHotel" />
+        <item itemvalue="JUnit.HouseBuyerTest.testHasBankHousesOrHotelsOnlyHouses" />
+        <item itemvalue="JUnit.HouseBuyerTest.testDetermineTransactionTypeHotel" />
+        <item itemvalue="JUnit.All in MonopolyCommandLine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager">
+    <option name="remove_strategy" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ee3cf72-2169-4f6f-8bae-e073cdda9c14" name="Default Changelist" comment="" />
+      <changelist id="02f1c2aa-6201-4319-af67-c7a32ca7730f" name="Add Comments" comment="" />
+      <created>1572286128062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572286128062</updated>
+      <workItem from="1572286130853" duration="6954000" />
+      <workItem from="1572556364259" duration="809000" />
+      <workItem from="1572701421081" duration="5708000" />
+      <workItem from="1574017876396" duration="4360000" />
+      <workItem from="1574023218875" duration="435000" />
+      <workItem from="1574023703715" duration="2204000" />
+      <workItem from="1575314430714" duration="6403000" />
+      <workItem from="1575486546886" duration="5352000" />
+      <workItem from="1575806207561" duration="6116000" />
+      <workItem from="1575835759491" duration="5471000" />
+      <workItem from="1575911010462" duration="7556000" />
+      <workItem from="1576518033251" duration="7533000" />
+      <workItem from="1576848754222" duration="1993000" />
+      <workItem from="1577122189429" duration="10156000" />
+      <workItem from="1577135492425" duration="934000" />
+      <workItem from="1577369122397" duration="1858000" />
+      <workItem from="1577473576852" duration="17208000" />
+      <workItem from="1577825264181" duration="532000" />
+      <workItem from="1577954015748" duration="1803000" />
+      <workItem from="1578150313851" duration="7448000" />
+      <workItem from="1578183669849" duration="4425000" />
+      <workItem from="1578311824203" duration="21594000" />
+      <workItem from="1578337182432" duration="181000" />
+      <workItem from="1578937624748" duration="6616000" />
+      <workItem from="1579116055106" duration="2342000" />
+      <workItem from="1580388145851" duration="2513000" />
+      <workItem from="1581114615189" duration="3096000" />
+      <workItem from="1581147867784" duration="1202000" />
+      <workItem from="1581202968793" duration="400000" />
+      <workItem from="1582225593304" duration="39000" />
+      <workItem from="1584734356253" duration="7303000" />
+      <workItem from="1584771099624" duration="4089000" />
+      <workItem from="1584813373521" duration="1484000" />
+      <workItem from="1584977103798" duration="9599000" />
+      <workItem from="1585764359149" duration="2348000" />
+      <workItem from="1586110637980" duration="4175000" />
+      <workItem from="1586193731693" duration="4807000" />
+      <workItem from="1586282953082" duration="2462000" />
+      <workItem from="1586369583940" duration="3400000" />
+      <workItem from="1586457786529" duration="5028000" />
+      <workItem from="1586626251544" duration="3108000" />
+      <workItem from="1587061402156" duration="5297000" />
+      <workItem from="1587398452486" duration="13727000" />
+      <workItem from="1587579717367" duration="1538000" />
+    </task>
+    <task id="LOCAL-00001" summary="Refactor">
+      <created>1572703824677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572703824677</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor some code">
+      <created>1575319445160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575319445160</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change return type performAction() to PlayerAction">
+      <created>1575319826812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575319826812</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change return type handleTransaction() in TransActionHandler to PlayerAction.">
+      <created>1575320831625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575320831625</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Begin making Bank responsible for buying property. Added lists with the kind of Boardspaces to Board.">
+      <created>1575324279066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575324279066</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add PlayerAction class and PlayerActionFactory, changed Enum PlayerAction to PlayerActionType">
+      <created>1575489191760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575489191760</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed the package of PlayerActionType">
+      <created>1575489244701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575489244701</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Game does now call the PlayerAction class">
+      <created>1575490952355</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575490952355</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created TestPackage MonopolyGame">
+      <created>1575491300519</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575491300519</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Try builderpattern for Boardspace">
+      <created>1575493004503</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575493004503</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Data of Monopoly board in separate class">
+      <created>1575911907939</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575911907939</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Data of Monopoly board in separate class">
+      <created>1576522202071</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576522202071</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Rework logica property kopen en userinput verkrijgen">
+      <created>1577125351224</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577125351224</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Logica eigendom kopen in BuyPropertyAction">
+      <created>1577126660349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577126660349</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix compile errors">
+      <created>1577126828435</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577126828435</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Bank registers how many types each player ownes">
+      <created>1577129748900</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577129748900</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Begin buy houses action">
+      <created>1577130931678</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577130931678</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Refactor UI, introduced menu">
+      <created>1577483998169</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1577483998169</updated>
+    </task>
+    <task id="LOCAL-00019" summary="First version buyhouses and hotels">
+      <created>1577485131463</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577485131463</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Begin goTo jail">
+      <created>1577955371960</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577955371960</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Sell Houses printmenu">
+      <created>1578335982317</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578335982317</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add cards">
+      <created>1578941733557</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578941733557</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add CardSpaceActions">
+      <created>1578943601694</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578943601694</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add CardSpaceActions">
+      <created>1584734389395</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584734389395</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Make Bank Singleton, reorder packages">
+      <created>1584980055707</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584980055707</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Make Bank Singleton, reorder packages">
+      <created>1587400406330</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1587400406330</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Make Bank Singleton, reorder packages">
+      <created>1587406453312</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1587406453312</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Unit test HouseBuyer">
+      <created>1587580741213</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587580741213</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HouseBuyerTest - 2020.04.20 at 20h 15m 02s.xml">
+      <configuration name="HouseBuyerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest - 2020.04.20 at 20h 24m 46s.xml">
+      <configuration name="HouseBuyerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest - 2020.04.20 at 20h 25m 25s.xml">
+      <configuration name="HouseBuyerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest - 2020.04.20 at 21h 39m 58s.xml">
+      <configuration name="HouseBuyerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest - 2020.04.20 at 21h 47m 04s.xml">
+      <configuration name="HouseBuyerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest_testBuyHotel - 2020.04.20 at 21h 48m 13s.xml">
+      <configuration name="HouseBuyerTest.testBuyHotel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest_testBuyHotel - 2020.04.20 at 21h 49m 50s.xml">
+      <configuration name="HouseBuyerTest.testBuyHotel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest_testBuyHotel - 2020.04.20 at 21h 50m 16s.xml">
+      <configuration name="HouseBuyerTest.testBuyHotel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest_testBuyHotel - 2020.04.20 at 21h 51m 08s.xml">
+      <configuration name="HouseBuyerTest.testBuyHotel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseBuyerTest - 2020.04.20 at 21h 51m 49s.xml">
+      <configuration name="HouseBuyerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="211606000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32889125" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32889125" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/jmol/jasper" />
+    </ignored-roots>
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Refactor some code" />
+    <MESSAGE value="Change return type performAction() to PlayerAction" />
+    <MESSAGE value="Change return type handleTransaction() in TransActionHandler to PlayerAction." />
+    <MESSAGE value="Begin making Bank responsible for buying property. Added lists with the kind of Boardspaces to Board." />
+    <MESSAGE value="Add PlayerAction class and PlayerActionFactory, changed Enum PlayerAction to PlayerActionType" />
+    <MESSAGE value="Changed the package of PlayerActionType" />
+    <MESSAGE value="Game does now call the PlayerAction class" />
+    <MESSAGE value="Created TestPackage MonopolyGame" />
+    <MESSAGE value="Try builderpattern for Boardspace" />
+    <MESSAGE value="Data of Monopoly board in separate class" />
+    <MESSAGE value="Rework logica property kopen en userinput verkrijgen" />
+    <MESSAGE value="Logica eigendom kopen in BuyPropertyAction" />
+    <MESSAGE value="Fix compile errors" />
+    <MESSAGE value="Bank registers how many types each player ownes" />
+    <MESSAGE value="Begin buy houses action" />
+    <MESSAGE value="Refactor UI, introduced menu" />
+    <MESSAGE value="First version buyhouses and hotels" />
+    <MESSAGE value="Begin goTo jail" />
+    <MESSAGE value="Sell Houses printmenu" />
+    <MESSAGE value="add cards" />
+    <MESSAGE value="Add CardSpaceActions" />
+    <MESSAGE value="Make Bank Singleton, reorder packages" />
+    <MESSAGE value="Unit test HouseBuyer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit test HouseBuyer" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/MonopolyCardDeck.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jmol/jasper/Main.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyerTest.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyerTest.java</url>
+          <line>408</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>15</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>8</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>isDoubleTrow &amp;&amp; !shouldBePrisoned()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>prisoners.get(player)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>playerOwnsAllTypes.get(player).get(property)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>playerOwnsAllTypes.get(player)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>hasAllTypes(player, boardspaceType)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>playerOwnsAllTypes.get(player).put(boardspaceType, hasAllTypes(player, boardspaceType))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!gameIsOver()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>players.get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/PlayerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayCardBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayForHousesCardBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayOrDrawChanceCardBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/PayRentBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="104" selection-start-line="24" selection-start-column="104" selection-end-line="24" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoToJailBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoToBoardspaceRegularBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/ActionFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PrintPlayerStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/BuyPropertyBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/NoBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/CommunityChest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/CardAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Chance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/CardSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoToBoardspaceDirectBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/BoardSpaceActions/GoThreePlacesBackBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/UserInterface/UserInputReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/UserInterface/Logic/UserInputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1624">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Logic/GameSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Logic/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Boardspace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1264#1265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/MonopolyBoardData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyBoard/Data/MonopolyBoardDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyBoard/Data/MonopolyCardDeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="283" column="12" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyTransaction.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/BuyHouseActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/UserInterface/Logic/KeuzeMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/UserInterface/Logic/ExpressionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/BuySellHouseHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/BankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/TransactionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuySellHousesUserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2593#2594#0" expanded="true" />
+            <element signature="e#2647#2648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/Player/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuyHousesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/BoardSpaces/Street.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyBoard/Data/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/Player/Logic/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/TestStreet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/TestBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/BuySellHouseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/SellHouseBoardSpaceAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="60" column="111" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jmol/jasper/MonopolyGame/Actions/PlayerActions/HouseBuyerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MonopolyCommandLine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
